@@ -1,8 +1,7 @@
-console.log('working');
 
-const number = 15324;
 
-console.log(answer(number));
+// const number = 15324;
+// console.log(answer(number));
 
 function answer(n) {
     const arr = [];
@@ -15,7 +14,7 @@ function answer(n) {
     return arr;
 }
 
-function getMaxSq (n) {
+function getMaxSq(n) {
     let i = 1;
     let lastSq = 0;
     while (true) {
@@ -26,6 +25,5 @@ function getMaxSq (n) {
         lastSq = mul;
         i++;
     }
-
     return lastSq || 1;
 }
