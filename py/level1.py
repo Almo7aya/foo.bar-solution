@@ -4,7 +4,10 @@ def answer(n):
     while minSum:
         last = getMaxSq(minSum)
         minSum -= last
-        arr.append(last)
+        if last == 0:
+            arr.append(1)
+        else:
+            arr.append(last)
     
     return arr
 
@@ -22,5 +25,3 @@ def getMaxSq(n):
         lastSq = 1
 
     return lastSq
-
-# print( answer(15324) )
