@@ -23,4 +23,4 @@ def getMaxSq(n):
 
     return lastSq
 
-print( answer(12) )
+# print( answer(15324) )

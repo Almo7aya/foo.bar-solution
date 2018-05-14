@@ -1,7 +1,7 @@
 
 
-const number = 15324;
-console.log(answer(number));
+// const number = 15324;
+// console.log(answer(number));
 
 function answer(n) {
     const arr = [];
